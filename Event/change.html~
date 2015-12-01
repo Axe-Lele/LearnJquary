@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> change </title>
+    <script type="text/javascript" src=Js/jquery-2.0.3.min.js></script>
+
+<script>
+$(document).ready(function(){
+    $("select[name=test]").change(function(){
+         alert("diganti");
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("select[name=test1]").change(function(){
+         var data = $(this).val()
+         alert(data);
+    });
+    //Ini adalah methode checked
+    $("input[name=test2]").change(function(){
+         var data = $(this).is(":checked")
+         if (data){
+             alert("sudah di checked")
+         } else{
+               alert("tidak di checked")
+         };
+    });
+    //ini adalah methode radio
+    $("input[name=test3]").change(function(){
+        var data = $(this).val()
+        alert(data)
+    });
+});
+</script>
+
+</head>
+<h2> .Change Handler </h2>
+<body>
+     <h3> string langsung</h3>
+     <select name="test">
+         <option value="data 1"> data 1</option>
+         <option value="data 2"> data 2</option>
+         <option value="data 3"> data 3</option>
+     </select>
+     <h3> memunculkan nilai value</h3>
+     <select name="test1">
+         <option value="data 1"> data 1</option>
+         <option value="data 2"> data 2</option>
+         <option value="data 3"> data 3</option>
+     </select>
+     
+     <input type="checkbox" name="test2" value="data1"> aaa </input>
+     <input type="radio" name="test3" value="data1"> aaa </input>
+     <input type="radio" name="test3" value="data1"> aaa </input>
+</body>
+
+</html>
