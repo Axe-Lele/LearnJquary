@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <title> jquary event handler</title>
+    <script type="text/javascript" src='Js/jquery-2.0.3.min.js'></script>
+    <link type="text/css" href="css/example.css" rel="stylesheet">
+
+<script type="text/javascript">
+$(document).ready(function(){
+   alert('hello ini adalah elert tentang Jquary');
+
+});
+</script>
+//Kotak dibawah ini adalah di klik
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.test').click(function(){
+        alert('kotak di klik jadi alert juga');
+    });
+});
+</script>
+
+</head>
+<body>
+    <h2> Fungsi event handler : Alert dan Click </h2>
+    <div class='test'></div>
+</body>
+
+</html>
