@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src=Js/jquery-2.0.3.min.js></script>
+
+<script>
+$(document).ready(function(){
+    $("select[name=tester]").change(function(){
+        $("input[name=checkfocus2]").focus(function(){
+            alert('sudah keluar bang')
+        });
+    });
+    $("input[name=checkfocus1]").focusin(function(){
+        alert("sudah masuk")
+    });
+
+    $("input[name=checkfocus3]").focusout(function(){
+        alert("sudah keluar")
+    });
+});
+</script>
+
+<style>
+    div{width:250px;height:250px;background-color:#000;cursor:pointer;}
+</style>
+</head>	
+<body>
+    <h3>Focusin</h3>
+    <input type="text" name="checkfocus1"></input>
+    <h3>Focus</h3>
+    <select name="tester">
+        <option value="data 1">Data 1</option>
+    </select>
+    <input type="text" name="checkfocus2"></input>
+    <h3>focusout</h3>
+    <input type="text" name="checkfocus3"></input>
+</body>
+</html>
