@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>toggle</title>
+     <script type="text/javascript" src="Js/jquery-2.0.3.min.js"></script>
+     <link type="text/css" href="css/example.css" rel="stylesheet">
+<script type="text/javascript">
+$(document).ready(function(){
+     //This is script to usage toggle method
+    //$("input[name=testing]").toggle(function(){
+    //    $(".tester1").show()
+   // })
+
+    $("input[name=chekkeys]").keypress(function(x){
+     //usage is keyup, keydown, keypress
+        var data=$(this).val()
+        alert(data)
+    });
+});
+</script>
+</head>
+<body>
+    <input name="testing" type="button"></input>
+    <div class="tester1"> </div>
+    <select name="tester1" type="checkbox">
+        <option value="data1">data1</option>
+    <input type="text" name="chekkeys"> </input>
+</body>
+</html>
