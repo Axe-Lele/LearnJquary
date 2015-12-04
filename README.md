@@ -18,3 +18,12 @@ How to learn Event Handler by Jquary: <br />
  k. .keydown() <br />
  l. .keypress() <br />
  m. .scroll() <br />
+
+<b>ANIMATE JQUARY<b>
+
+.Animate() <br />
+.fadeIn()<br />
+.fadeOut()<br />
+.fadeTo()<br />
+.slideDown()<br />
+.slideUp()<br />
