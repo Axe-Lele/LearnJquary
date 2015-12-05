@@ -7,7 +7,7 @@
     <meta charset='utf-8'>
     <link type='text/css' href='css/fadein.css' rel='stylesheet'>
     <script type='text/javascript' src='script/jquery-1.7.2.min.js'> </script>
-    <script type='text/javascript' src='script/fadeto.js'></script>
+    <script type='text/javascript' src='script/slideDown_up.js'></script>
 </head>
 
 <body>

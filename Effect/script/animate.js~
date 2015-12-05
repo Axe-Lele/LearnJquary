@@ -1,0 +1,10 @@
+//animate
+
+
+$(document).ready(function(){
+   $(".box1").click(function(){
+       $("#box").animate({
+        scrollTop:
+        $("body").offset().top},0); });
+   });
+});
