@@ -1,0 +1,14 @@
+<b>CONTEN MANIPULATION</b>
+
+a.- HTML()
+b.- append ()
+c.- prepend()
+d.- parent()
+e.- text()
+f.- attr()
+g.- each()
+h.- prop()
+i.- removeattr()
+j.- val()
+k.- css()
+l.- is()
