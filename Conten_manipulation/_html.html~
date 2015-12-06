@@ -10,7 +10,6 @@
 
 </head>
 <body>
-    <button name='change'>change</button>
     <div id='get'>
         <table>
             <th> header </th>
