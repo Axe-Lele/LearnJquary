@@ -1,0 +1,6 @@
+
+$(document).ready(function(){
+    $('button[name=ganti]').click(function(){
+         $('#get table').append('<tr><td>baris baru</td></tr>');
+    });
+});
