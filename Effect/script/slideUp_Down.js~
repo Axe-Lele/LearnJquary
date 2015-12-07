@@ -1,9 +1,0 @@
-
-
-$(document).ready(function(){
-    $('.box1').toggle(function(){
-        $('#box2').slideUp();
-    },function(){
-        $('#box2').slideDown('slow',0);
-    });
-});
