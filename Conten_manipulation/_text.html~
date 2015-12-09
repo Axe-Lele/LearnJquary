@@ -6,7 +6,7 @@
     <title> text methode</title>
     <link type='text/css' href='css/''' rel='stylesheet'>
     <script type='text/javascript' src='script/jquery-1.7.2.min.js'></script>
-    <script type='text/javascript' src='script/text.js' ></script>    
+    <script type='text/javascript' src='script/''' ></script>    
 </head>
 <body>
     <button name='ganti'> click</button>
