@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <link type='text/css' href='css/manipulation.css' rel='stylesheet'>
     <script type='text/javascript' src='script/jquery-1.7.2.min.js'></script>
-    <script type='text/javascript' src='script/each.js'>//dia hanya support tag html dan class tertentu kalo each</script>
+    <script type='text/javascript' src='script/each.js'></script>
     
 </head>
 <body>
