@@ -1,5 +1,0 @@
-$(document).ready(function(){
-    $('button[name=ganti]').click(function(){
-         var data = $('.test').attr('saja','ganti juga')
-    });
-});
