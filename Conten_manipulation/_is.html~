@@ -9,7 +9,7 @@
 </head>
 <body>
     <button name='ganti'> click</button>
-    <input type='radio' name='coba1' >polos</input>
+    <input type='radio' name='coba1' checked>polos</input>
     <input type='radio' name='coba2' >rindu</input>
     <div>
     </div>
