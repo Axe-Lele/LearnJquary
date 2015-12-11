@@ -6,7 +6,7 @@
     <title>HTML Manipulation</title>
     <link type='text/css' href='css/manipulation.css' rel='stylesheet'>
     <script type='text/javascript' src='script/jquery-1.7.2.min.js'></script>
-    <script type='text/javascript' src='script/prepend_append.js'></script>
+    <script type='text/javascript' src='script/_prepend_append.js'></script>
 </head>
 
 <body>
