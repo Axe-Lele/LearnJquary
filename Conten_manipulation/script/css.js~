@@ -1,0 +1,5 @@
+$(document).ready(function(){
+    $('button[name=ganti]').click(function(){
+        var data = $('input[name=cinta]').css('height','50px');
+    });
+});
